@@ -21,13 +21,13 @@ At the moment the two projects required are
 1. Upon downloading the project the first step in the root of the project is to run `composer install` this
 should install all packages used.
 
-2. Next is to run `php artisan migrate` this should migrate all the files to the database and make sure all the correct tables in
-the database are setup
+2. Next is to run `php artisan migrate` and `php artisan db:seed` or `php artisan migrate:refresh --seed` this will migrate all the files to the database and 
+populate all the tables with the current set of test data.
 
 3. Next you should run `php artisan serve` this will start the php server that will be used to access the database. It is important to note
 that `API_BASE_URL` const within the frontend Vue.js project matches the url spun up by the php server, 
-which should typically be `http://localhost:8000`
-
+which should typically be `http://localhost:8000`. If it is not `localhost:8000` and has become something else, make sure to update the `config.js` file
+ within the vue web client project as the api url at current has been set to `localhost:8000`.
 
 # Notes
 

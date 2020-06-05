@@ -16,6 +16,7 @@ class CreateArmyList extends Migration
         Schema::create('army_lists', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('shorthand');
             $table->string('factionType');
         });
     }

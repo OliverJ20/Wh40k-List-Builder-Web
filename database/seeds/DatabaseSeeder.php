@@ -157,6 +157,7 @@ class DatabaseSeeder extends Seeder
             [
             'id' => 1,
             'name' => 'Death Guard',
+            'shorthand' => 'DeathGuard',
             'factionType' => 'Chaos',
             ]
         );
@@ -165,6 +166,7 @@ class DatabaseSeeder extends Seeder
             [
                 'id' => 2,
                 'name' => 'Blood Angels',
+                'shorthand' => 'BloodAngels',
                 'factionType' => 'Imperium',
             ]
         );
@@ -173,6 +175,7 @@ class DatabaseSeeder extends Seeder
             [
                 'id' => 3,
                 'name' => 'Thousand Sons',
+                'shorthand' => 'ThousandSons',
                 'factionType' => 'Chaos',
             ]
         );
@@ -181,6 +184,7 @@ class DatabaseSeeder extends Seeder
             [
                 'id' => 4,
                 'name' => 'Orks',
+                'shorthand' => 'Orks',
                 'factionType' => 'Xenos',
             ]
         );
@@ -189,6 +193,7 @@ class DatabaseSeeder extends Seeder
             [
                 'id' => 5,
                 'name' => 'Eldar',
+                'shorthand' => 'Eldar',
                 'factionType' => 'Xenos',
             ]
         );

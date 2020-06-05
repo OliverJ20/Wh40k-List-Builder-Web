@@ -10,8 +10,6 @@ class ArmyIndividualController extends Controller
 {
     public function index($army_id)
     {
-        // return new ArmyIndividualResource(ArmyIndividual::where('army_id', $army_id)->findOrFail());
         return new ArmyIndividualResource(ArmyIndividual::where('army_id', 7)->firstOrFail());
-
     }
 }

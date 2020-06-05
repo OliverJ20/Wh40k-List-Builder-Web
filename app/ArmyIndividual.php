@@ -18,7 +18,4 @@ class ArmyIndividual extends Model
         'army_transport_units' => 'array',
 
     ];
-    //protected $casts = [
-    //    //    //   'email_verified_at' => 'datetime',
-    //    //   // ];
 }
